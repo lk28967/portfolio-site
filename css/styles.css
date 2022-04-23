@@ -368,7 +368,6 @@ footer {
     }
     
     #byNight {
-        outline: 1px solid red;
         background-color: #3E3E3E;
         height: 80vh;
         position: -webkit-sticky;
