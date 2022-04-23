@@ -417,24 +417,19 @@ footer {
 }
 /*
  /* TABLET *
-
 @media screen and (min-width: 769px) {
     /* NAV *
-
     header {
         height: 15vw;
     }
-
     #hamburger {
         display: none;
     }
-
     nav {
         width: 100%;
         min-height: 10vw;
         max-height: 15em;
     }
-
     nav ul {
         width: 60%;
         height: 6vw;
@@ -445,24 +440,19 @@ footer {
         justify-content: flex-end;
         box-shadow: 0 1px 2px transparent; 
     }
-
     nav ul li {
         align-self: center;
         margin: -3em;
         font-size: 3vw;
     }
-
     nav ul li a {
         font-weight: lighter;
     }
-
     /*HEADER*
-
     section h1 {
         font-size: 5vw;
         margin: 0;
     }
-
     /*MAIN CONTENT*
     
     main div {
@@ -471,21 +461,17 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
     #me {
         max-width: 30%;
         margin-top: 6em;
         margin-bottom: 6em;
         margin-left: 4.5em;
     }
-
     main p {
         font-size: 2.2vw;
         padding: 4.5em;
     }
-
     /*FOOTER*
-
     footer p {
         font-family: quasimoda,sans-serif;
         font-weight: 500;
@@ -495,21 +481,17 @@ footer {
         padding: 2%;
     }
 }
-
 /*DESKTOP*
 @media screen and (min-width: 1279px) {
     /* NAV *
-
     #hamburger {
         display: none;
     }
-
     nav {
         /* outline: 1px solid red; *
         width: 100%;
         min-height: 4em;
     }
-
     nav ul {
         /*outline: 1px solid red;*
         width: 100%;
@@ -520,7 +502,6 @@ footer {
         box-shadow: 0 1px 2px transparent; 
         background-color: transparent;
     }
-
     nav ul li {
        /*outline: 1px solid red;*
         align-self: center;
@@ -528,13 +509,11 @@ footer {
         margin-right: 2em;
         margin-top: -6em;
     }
-
     nav ul li a {
         /*outline: 1px solid red;*
         font-size: .9vw;
         font-weight: lighter;
     }
-
     /*HEADER*
     
     header {
@@ -553,7 +532,6 @@ footer {
         position: sticky;
         top: 0em;
     }
-
     /*MAIN CONTENT*
     
     section {
@@ -561,20 +539,16 @@ footer {
         margin: auto;
         width: 60%;
     }
-
     main div {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     main p {
         /*outline: 1px solid red;*    
         font-size: 1.2vw;  
     }
-
     /*FOOTER*
-
     footer p {
         /*outline: 1px solid red;*
         font-family: quasimoda,sans-serif;
@@ -584,7 +558,6 @@ footer {
         font-size: 1.2vw;
         padding-top: 2%;
     }
-
     footer {
         /*outline: 1px solid red;*
         bottom: 0;
@@ -593,17 +566,14 @@ footer {
 }
 @media screen and (min-width: 1901px) {
     /* NAV *
-
     #hamburger {
         display: none;
     }
-
     nav {
         /* outline: 1px solid red; *
         width: 100%;
         min-height: 16em;
     }
-
     nav ul {
         /*outline: 1px solid red;*
         width: 100%;
@@ -614,7 +584,6 @@ footer {
         box-shadow: 0 1px 2px transparent; 
         background-color: transparent;
     }
-
     nav ul li {
        /*outline: 1px solid red;*
         align-self: center;
@@ -622,13 +591,11 @@ footer {
         margin-right: 2em;
         margin-top: -6em;
     }
-
     nav ul li a {
         /*outline: 1px solid red;*
         font-size: .9vw;
         font-weight: lighter;
     }
-
     /*HEADER*
     
     header {
@@ -647,7 +614,6 @@ footer {
         position: sticky;
         top: 0em;
     }
-
     /*MAIN CONTENT*
     
     section {
@@ -655,20 +621,16 @@ footer {
         margin: 16em auto;
         width: 80%;
     }
-
     main div {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     main p {
         /*outline: 1px solid red;*     
         font-size: 1.2vw;  
     }
-
     /*FOOTER*
-
     footer p {
         /*outline: 1px solid red;*
         font-family: quasimoda,sans-serif;
@@ -678,7 +640,6 @@ footer {
         font-size: 1.2vw;
         padding-top: 2%;
     }
-
     footer {
         /*outline: 1px solid red;*
         bottom: 0;

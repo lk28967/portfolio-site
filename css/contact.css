@@ -461,7 +461,10 @@ footer {
         position: -webkit-sticky;
         position: sticky;
         bottom: 0;
-        height: 6vh;
+        height: 4vh;
     }
     
+    footer p {
+        padding: 1.2vh;
+    }
 }
