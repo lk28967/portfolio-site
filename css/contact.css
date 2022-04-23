@@ -166,6 +166,7 @@ main {
 
 form {
     margin: 2.5em 2.8em;
+    text-align: center;
 }
 
 label, #text {
