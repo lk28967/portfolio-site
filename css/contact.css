@@ -176,6 +176,15 @@ label, #text {
     font-size: medium;
 }
 
+
+#email, #phone::placeholder {
+    color: rgb(185, 185, 185);
+}
+
+#email::placeholder {
+    color: rgb(185, 185, 185);
+}
+
 #name, #email, #phone, #message {
     width: 94%;
     margin: .5em auto;
@@ -207,6 +216,18 @@ label, #text {
     box-shadow: 
                 0 4px 4px rgba(0,0,0,0.07),
                 0 8px 8px rgba(0,0,0,0.07);
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: quasimoda,sans-serif;
+    color: red;
+    font-weight: light;
+    font-style: normal;
+    font-size: medium;
 }
 
 /*FOOTER*/
@@ -309,6 +330,15 @@ footer {
         font-style: normal;
         font-size: small;
     }
+
+    
+    #email, #phone::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    #email::placeholder {
+        color: rgb(185, 185, 185);
+    }
     
     #name, #email, #phone, #message {
         width: 94%;
@@ -341,6 +371,18 @@ footer {
         box-shadow: 
                     0 4px 4px rgba(0,0,0,0.07),
                     0 8px 8px rgba(0,0,0,0.07);
+    }
+
+    .error {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-family: quasimoda,sans-serif;
+        color: red;
+        font-weight: light;
+        font-style: normal;
+        font-size: smaller;
     }
     
     
