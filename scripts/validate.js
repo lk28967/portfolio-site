@@ -31,7 +31,7 @@ function checkValues() {
     let messageError = document.querySelector(".message-error");
 
     if(fullNameValue == "") {
-        fullName.style.outline = "1.5px solid red";
+        fullName.style.outline = "3px solid #bcb2e1";
         fNameError.innerText = "Please enter your name."
     } else if((fullNameValue !== "") && (fNameError.innerText !== "")) {
         fullName.style.outline = "";
@@ -39,7 +39,7 @@ function checkValues() {
     }
 
     if(emailValue == "") {
-        email.style.outline = "1.5px solid red";
+        email.style.outline = "3px solid #bcb2e1";
         emailError.innerText = "Please enter your email."
     } else if((emailValue !== "") && (emailError.innerText !== "")) {
         email.style.outline = "";
@@ -47,7 +47,7 @@ function checkValues() {
     }
 
     if(phoneValue == "") {
-        phone.style.outline = "1.5px solid red";
+        phone.style.outline = "3px solid #bcb2e1";
         phoneError.innerText = "Please provide a valid phone number."
     } else if((phoneValue !== "") && (phoneError.innerText !== "")) {
         phone.style.outline = "";
@@ -55,7 +55,7 @@ function checkValues() {
     }
 
     if(messageValue == "") {
-        message.style.outline = "1.5px solid red";
+        message.style.outline = "3px solid #bcb2e1";
         messageError.innerText = "Please provide a reason for contact."
     } else if((messageValue !== "") && (messageError.innerText !== "")) {
         message.style.outline = "";
