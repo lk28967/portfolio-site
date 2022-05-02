@@ -198,7 +198,7 @@ label, #text {
     border-radius: 5px;
 }
 
-#submit {
+#finish {
     background-color: #514872;
     padding: 4%;
     width: 30vw;
@@ -352,7 +352,7 @@ footer {
         border-radius: 5px;
     }
     
-    #submit {
+    #finish {
         background-color: #514872;
         padding: 1.8%;
         width: 18vw;
@@ -484,7 +484,7 @@ footer {
         margin: .5vw;
     }
 
-#submit {
+#finish {
     background-color: #514872;
     padding: .8%;
     width: 8vw;
