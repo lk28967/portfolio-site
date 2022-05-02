@@ -38,8 +38,8 @@
             <p id="introtext">If you want to work with me, have a question, or just want to chat, please fill out the form below. I look foward to hearing from you!</p>
             <!-- <input type="button" id="flip"/>
             <label for="button" id="arrow">&raquo;</label> -->
-            <form id="contact-form" novalidate>
-                <label for="name">Name</label><br/>
+            <form id="contact-form" action="scripts/contact.php" method="POST" novalidate>
+                <label for="full-name">Name</label><br/>
                 <small class="error fname-error"></small>
                 <input type="text" name="full-name" required id="name"/>
                 <br/>
@@ -66,7 +66,7 @@
                 <textarea name="message" required id="message"></textarea>
                 <br/>
                 <br/>
-                <input id="submit" type="submit" value="submit"/>
+                <button type="btnsubmit" id="finish">Submit</button>
             </form>
         </div>
     </main>
