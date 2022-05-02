@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
     if((fullName.value !== "") && (email.value !== "") && (phone.value !== "") && (message.value !== "")) {
         form.submit();
         console.log("Form Submitted!");
-        alert("Form Submitted!");
+        alert("Thanks! I'll get back to you as soon as possible!")
     } 
    
 });
