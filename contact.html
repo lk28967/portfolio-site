@@ -39,7 +39,7 @@
             <!-- <input type="button" id="flip"/>
             <label for="button" id="arrow">&raquo;</label> -->
             <form id="contact-form" action="scripts/contact.php" method="POST" novalidate>
-                <label for="full-name">Name</label><br/>
+                <label for="name">Name</label><br/>
                 <small class="error fname-error"></small>
                 <input type="text" name="full-name" required id="name"/>
                 <br/>
@@ -54,7 +54,7 @@
                 <input type="tel" name="phone" required id="phone" placeholder="(xxx) xxx-xxxx"/>
                 <br/>
                 <br/>
-                <label for="yesno">Can I text you?</label><br/>
+                <label for="yes">Can I text you?</label><br/>
                 <input type="radio" name="yesno" id="yes" value="yes"/>
                 <label for="yes">Yes</label>
                 <input type="radio" name="yesno" id="no" value="no"/>
@@ -66,7 +66,7 @@
                 <textarea name="message" required id="message"></textarea>
                 <br/>
                 <br/>
-                <button type="btnsubmit" id="finish">Submit</button>
+                <button type="submit" id="finish">Submit</button>
             </form>
         </div>
     </main>
