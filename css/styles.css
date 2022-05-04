@@ -380,10 +380,11 @@ footer {
         font-family: quasimoda,sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size: larger;
+        font-size: large;
         display: block;
         margin: 2.5em 6em;
-        width: 20%;
+        margin-right: 4.5em;
+        width: 24%;
         line-height: 2em;
     }
     
@@ -392,19 +393,22 @@ footer {
         color: #B8B8B8;
         font-weight: 500;
         font-style: normal;
-        font-size: larger;
+        font-size: large;
         display: block;
-        margin: 2.5em 6em;
-        width: 20%;
+        margin: 2.5em 3em;
+        margin-right: 2em;
+        width: 24%;
         line-height: 2em;
         padding-top: 0;
     }
 
-    .me, main p {
+    .me {
         width: 18vw;
         font-size: .9vw;
         margin: auto 6em;
+        margin-left: 10em;
     }
+
 
     footer {
         width: 100%;
